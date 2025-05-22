@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center"> -->
 
 <!-- TITLE -->
 # **Sample and Computationally Efficient Continuous-Time Reinforcement Learning with General Function Approximation**  
@@ -78,7 +78,7 @@ CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes=1 online/online_main.py
 ### Evaluation
 
 We compare the performance of $\text{PURE}\text{ENODE}$ and $\text{ENODE}$. As shown below, $\text{PURE}\text{ENODE}$ achieves similar reward scores with significantly reduced fine-tuning time. Experiments were run on a single A6000 GPU with 20 seeds.
-![PURE_ENODE](PURE_SEIKO/assets/enode.png)
+![PURE_ENODE](PURE_ENODE/assets/enode.png)
 
 ## Code for $\text{ENODE}_\text{SEIKO}$
 
