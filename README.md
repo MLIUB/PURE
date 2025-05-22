@@ -33,7 +33,7 @@ CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes=1 online/online_main_pu
 ```
 You can modify the --seed and --num_outer_loop values as needed.
 
-### Reproducing SEIKO Baseline
+### Reproducing $\text{SEIKO}$ Baseline
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes=1 online/online_main.py --config config/UCB.py:aesthetic
@@ -41,7 +41,7 @@ CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes=1 online/online_main.py
 
 ### Evaluation
 
-We compare the running time and aesthetic reward score of $\text{PURE}\text{SEIKO}$ against $\text{SEIKO}$. As shown below, $\text{PURE}\text{SEIKO}$ achieves comparable performance with substantially reduced fine-tuning time. All experiments were conducted on a single A6000 GPU with 5 random seeds.
+We compare the running time and aesthetic reward score of $\text{PURE}_\text{SEIKO}$ against $\text{SEIKO}$. As shown below, $\text{PURE}_\text{SEIKO}$ achieves comparable performance with substantially reduced fine-tuning time. All experiments were conducted on a single A6000 GPU with 5 random seeds.
 ![PURE_SEIKO](PURE_SEIKO/assets/seiko.png)
 
 #### Qualitative Examples
@@ -69,7 +69,7 @@ CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes=1 online/online_main_pu
 ```
 here the seed and number of outer loops can be adjusted via command line. -->
 
-### Reproducing SEIKO Result (Baseline)
+### Reproducing $\text{ENODE}$ Baseline
 
 <!-- ```bash
 CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes=1 online/online_main.py --config config/UCB.py:aesthetic
@@ -80,7 +80,6 @@ CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes=1 online/online_main.py
 We compare the performance of $\text{PURE}\text{ENODE}$ and $\text{ENODE}$. As shown below, $\text{PURE}_\text{ENODE}$ achieves similar reward scores with significantly reduced fine-tuning time. Experiments were run on a single A6000 GPU with 20 seeds.
 ![PURE_ENODE](PURE_ENODE/assets/enode.png)
 
-## Code for $\text{ENODE}_\text{SEIKO}$
 
 ### Acknowledgement
 
