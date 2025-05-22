@@ -41,12 +41,12 @@ CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes=1 online/online_main.py
 
 ### Evaluation
 
-We compare the running time and aesthetic reward score of $\text{PURE}_\text{SEIKO}$ against $\text{SEIKO}$. As shown below, $\text{PURE}_\text{SEIKO}$ achieves comparable performance with substantially reduced fine-tuning time. All experiments were conducted on a single A6000 GPU with 5 random seeds.
+We compare the running time and aesthetic reward score of $\text{PURE}_{\text{SEIKO}}$ against $\text{SEIKO}$. As shown below, $\text{PURE}_{\text{SEIKO}}$ achieves comparable performance with substantially reduced fine-tuning time. All experiments were conducted on a single A6000 GPU with 5 random seeds.
 ![PURE_SEIKO](PURE_SEIKO/assets/seiko.png)
 
 #### Qualitative Examples
 
-We also visualize generated images and their aesthetic scores from $\text{PURE}_\text{SEIKO}$ and $\text{SEIKO}$.
+We also visualize generated images and their aesthetic scores from $\text{PURE}_{\text{SEIKO}}$ and $\text{SEIKO}$.
 ![Qualitative Comparison](PURE_SEIKO/assets/qualitative_comparison.png)
 
 ## Code for $\text{PURE}_\text{ENODE}$
@@ -77,7 +77,7 @@ CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes=1 online/online_main.py
 
 ### Evaluation
 
-We compare the performance of $\text{PURE}\text{ENODE}$ and $\text{ENODE}$. As shown below, $\text{PURE}_\text{ENODE}$ achieves similar reward scores with significantly reduced fine-tuning time. Experiments were run on a single A6000 GPU with 20 seeds.
+We compare the performance of $\text{PURE}_{\text{ENODE}}$ and $\text{ENODE}$. As shown below, $\text{PURE}_\text{ENODE}$ achieves similar reward scores with significantly reduced fine-tuning time. Experiments were run on a single A6000 GPU with 20 seeds.
 ![PURE_ENODE](PURE_ENODE/assets/enode.png)
 
 
