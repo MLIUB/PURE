@@ -57,27 +57,26 @@ We also visualize generated images and their aesthetic scores from PURE<sub>SEIK
 
 ### Installation
 
-<!-- Create a conda environment with the following command:
+Create a conda environment with the following command:
 
 ```bash
-cd PURE_SEIKO
-conda create -n SEIKO python=3.10
-conda activate SEIKO
+cd PURE_ENODE
+conda create -n ODERL python=3.7.7
+conda activate ODERL
 pip install -r requirements.txt
 ```
-Please use accelerate==0.17.0; other library dependencies might be flexible. -->
+Please use torch==1.6.0 and later versions; other library dependencies might be flexible.
 
 ### Running
-<!-- ```bash
-CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes=1 online/online_main_pure.py --config config/UCB.py:aesthetic --seed=31 --num_outer_loop=4
+```bash
+CUDA_VISIBLE_DEVICES=0 python runner_pure.py
 ```
-here the seed and number of outer loops can be adjusted via command line. -->
 
 ### Reproducing $\text{ENODE}$ Baseline
 
-<!-- ```bash
-CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes=1 online/online_main.py --config config/UCB.py:aesthetic
-``` -->
+```bash
+CUDA_VISIBLE_DEVICES=0 python runner.py
+```
 
 ### Evaluation
 
