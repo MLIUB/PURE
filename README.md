@@ -25,7 +25,7 @@ conda create -n SEIKO python=3.10
 conda activate SEIKO
 pip install -r requirements.txt
 ```
-Please use accelerate==0.17.0; other library dependencies might be flexible.
+Please use `accelerate==0.17.0`; other library dependencies might be flexible.
 
 ### Running
 ```bash
@@ -65,7 +65,7 @@ conda create -n ODERL python=3.7.7
 conda activate ODERL
 pip install -r requirements.txt
 ```
-Please use torch==1.6.0 and later versions; other library dependencies might be flexible.
+Please use `torch==1.6.0` and later versions; other library dependencies might be flexible.
 
 ### Running
 ```bash
