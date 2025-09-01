@@ -94,10 +94,9 @@ This codebase builds on top of [SEIKO](https://github.com/zhaoyl18/SEIKO) and [O
 If you find our work useful, please consider citing:
 
 ```bibtex
-@article{zhao2025sample,
+@inproceedings{zhaosample,
   title={Sample and Computationally Efficient Continuous-Time Reinforcement Learning with General Function Approximation},
   author={Zhao, Runze and Yu, Yue and Zhu, Adams Yiyue and Yang, Chen and Zhou, Dongruo},
-  journal={arXiv preprint arXiv:2505.14821},
-  year={2025}
+  booktitle={The 41st Conference on Uncertainty in Artificial Intelligence}
 }
 ```
